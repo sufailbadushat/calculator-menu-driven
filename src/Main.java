@@ -38,6 +38,12 @@ public class Main {
                 System.out.println("The answer is ");
                 System.out.println(result);
                 break;
+            case 5:
+                double sqrt1 = number1*number1;
+                double sqrt2 = number2*number2;
+                System.out.println("The Square root of "+ number1 + " is "+ sqrt1);
+                System.out.println("The Square root of "+ number2 + " is "+ sqrt2);
+                break;
         }
 
     }
