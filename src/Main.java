@@ -17,5 +17,13 @@ public class Main {
         double number1 = sc.nextDouble();
         double number2 = sc.nextDouble();
 
+        switch (choice){
+            case 1:
+                double result = number1+number2;
+                System.out.println("The answer is ");
+                System.out.println(result);
+                break;
+        }
+
     }
 }
