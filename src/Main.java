@@ -23,6 +23,11 @@ public class Main {
                 System.out.println("The answer is ");
                 System.out.println(result);
                 break;
+            case 2:
+                result = number1-number2;
+                System.out.println("The answer is ");
+                System.out.println(result);
+                break;
         }
 
     }
